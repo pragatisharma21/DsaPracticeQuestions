@@ -1,9 +1,10 @@
-N = 12
-let count = 0
-for(i=1; i<=N; i++){
-    if(N%i===0){
-        count = count+1
-       
+num = 4
+count = 1
+for(i=0; i<num; i++){
+    let bag = ""
+    for(let j = 0; j<num; j++){
+        bag = bag + count + " "
+        count++
     }
+    console.log(bag)
 }
-console.log(count)
