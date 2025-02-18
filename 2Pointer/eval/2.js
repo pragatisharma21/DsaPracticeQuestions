@@ -5,10 +5,10 @@ function maxApples(weights, r) {
     // Use a Set to track picked apples
     const picked = new Set();
 
-    // Iterate through the sorted array
+    // Iterate through the sorted array [2,3,4,5,6,10]
     for (const weight of weights) {
         // Check if neither weight/r nor weight*r exists in the set
-        if (!picked.has(weight / r) && !picked.has(weight * r)) {
+        if (!picked.has(weight / r) ) {
             // Add the weight to the set
             picked.add(weight);
         }
@@ -19,6 +19,6 @@ function maxApples(weights, r) {
 }
 
 // Example usage:
-const weights = [1 ,2, 3, 4, 5];
-const r = 1; // Dynamic value of r
+const weights = [2, 3 ,6, 5, 4 ,10];
+const r = 2; // Dynamic value of r
 console.log(maxApples(weights, r)); // Output: 3
