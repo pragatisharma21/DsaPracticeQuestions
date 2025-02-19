@@ -1,0 +1,81 @@
+🔹 Number-Based Questions
+1️⃣ Check if a number is prime.
+2️⃣ Find the factorial of a number.
+3️⃣ Reverse a number (like 123 → 321).
+4️⃣ Check if a number is an Armstrong number.
+5️⃣ Check if a number is a palindrome.
+6️⃣ Find the sum of digits of a number.
+7️⃣ Count the number of digits in a number.
+8️⃣ Find GCD (HCF) and LCM of two numbers.
+9️⃣ Generate Fibonacci series up to N.
+🔟 Check if a number is a perfect square.
+🔹 Intermediate Questions:
+1️⃣1️⃣ Check if a Number is a Perfect Number
+1️⃣2️⃣ Check if a Number is a Harshad (Niven) Number
+1️⃣3️⃣ Check if a Number is an Automorphic Number
+1️⃣4️⃣ Find the Sum of Factors of a Number
+1️⃣5️⃣ Find the Missing Number in an Array of 1 to N
+1️⃣6️⃣ Find the Majority Element in an Array
+1️⃣7️⃣ Find Power of a Number Using Binary Exponentiation
+1️⃣8️⃣ Convert a Number to Roman Numerals
+1️⃣9️⃣ Find the Nearest Prime Number
+2️⃣0️⃣ Find the Next Permutation of a Number
+
+🔹 Advanced Questions:
+2️⃣1️⃣ Check if a Number is a Smith Number
+2️⃣2️⃣ Check if a Number is a Strong Number
+2️⃣3️⃣ Find the Sum of Digits of a Number Until a Single Digit is Left
+2️⃣4️⃣ Check if a Number is a Fibonacci Number
+2️⃣5️⃣ Find the Nth Fibonacci Number (Optimized Approach)
+2️⃣6️⃣ Find the Prime Factors of a Number
+2️⃣7️⃣ Find the Product of Digits of a Number
+2️⃣8️⃣ Count the Number of Digits in a Given Number
+2️⃣9️⃣ Find the Largest and Smallest Digit in a Number
+3️⃣0️⃣ Check if a Number is a Power of Two
+
+🔹 Array-Based Questions
+1️⃣ Reverse an array without using inbuilt functions.
+2️⃣ Find the maximum and minimum element in an array.
+3️⃣ Check if an array is sorted or not.
+4️⃣ Find the second largest number in an array.
+5️⃣ Move all zeros to the end of the array.
+6️⃣ Find the missing number in an array (1 to N).
+7️⃣ Find the duplicate number in an array.
+8️⃣ Find the intersection of two arrays (common elements).
+9️⃣ Rotate an array by K positions.
+🔟 Find the subarray with the maximum sum (Kadane’s Algorithm).
+
+
+🔹 String-Based Questions
+1️⃣ Check if a string is a palindrome.
+2️⃣ Reverse a string without using inbuilt functions.
+3️⃣ Count the occurrences of each character in a string.
+4️⃣ Remove duplicate characters from a string.
+5️⃣ Find the first non-repeating character in a string.
+6️⃣ Check if two strings are anagrams of each other.
+7️⃣ Compress a string (Example: aaabbc → a3b2c1).
+8️⃣ Find the longest palindrome substring in a string.
+9️⃣ Find all substrings of a given string.
+🔟 Convert a given sentence into Title Case (First letter capital).
+  
+🔹 Matrix-Based Questions
+1️⃣ Print a matrix in spiral order.
+2️⃣ Find the transpose of a matrix.
+3️⃣ Check if two matrices are identical.
+4️⃣ Rotate a matrix by 90 degrees.
+5️⃣ Find the sum of diagonal elements in a matrix.
+
+🔹 Recursion-Based Questions
+1️⃣ Find the factorial of a number using recursion.
+2️⃣ Print Fibonacci series using recursion.
+3️⃣ Find the sum of digits using recursion.
+4️⃣ Reverse a string using recursion.
+5️⃣ Check if a string is a palindrome using recursion.
+
+
+🔹 Logical and Pattern-Based Questions
+1️⃣ Print a pyramid pattern using loops.
+2️⃣ Print Pascal’s triangle.
+3️⃣ Print Floyd’s triangle.
+4️⃣ Print Diamond shape pattern.
+5️⃣ Print Hollow Square pattern.
