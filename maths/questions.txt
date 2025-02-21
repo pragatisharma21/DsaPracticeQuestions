@@ -1,6 +1,6 @@
 🔹 Number-Based Questions
 1️⃣ Check if a number is prime.
-2️⃣ Find the factorial of a number.
+2️⃣ ₹
 3️⃣ Reverse a number (like 123 → 321).
 4️⃣ Check if a number is an Armstrong number.
 5️⃣ Check if a number is a palindrome.
