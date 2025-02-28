@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            display: block;
+            margin: 10px auto;
+            padding: 8px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Sign Up</h2>
+    <input type="text" id="signupName" placeholder="Full Name">
+    <input type="email" id="signupEmail" placeholder="Email">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button onclick="signUp()">Sign Up</button>
+
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <script>
+        const BASE_URL = "http://localhost:5000"; // Yahan tumhara backend URL daalna
+
+        function signUp() {
+            const userData = {
+                name: document.getElementById("signupName").value,
+                email: document.getElementById("signupEmail").value,
+                password: document.getElementById("signupPassword").value
+            };
+
+            fetch(`${BASE_URL}/signup`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(userData)
+            })
+            .then(res => res.json())
+            .then(data => alert(data.message || "Sign Up Successful!"))
+            .catch(err => console.error("Error:", err));
+        }
+
+        function login() {
+            const loginData = {
+                email: document.getElementById("loginEmail").value,
+                password: document.getElementById("loginPassword").value
+            };
+
+            fetch(`${BASE_URL}/login`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(loginData)
+            })
+            .then(res => res.json())
+            .then(data => alert(data.message || "Login Successful!"))
+            .catch(err => console.error("Error:", err));
+        }
+    </script>
+
+</body>
+</html>
